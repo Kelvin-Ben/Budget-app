@@ -142,9 +142,9 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 > I will create a Ruby on Rails application that allows the user to: 
 
-- [ ] **[Register and login, so that the data is private to them]**
-- [ ] **[Introduce new transactions associated with a category]**
-- [ ] **[See the money spent on each category]**
+- [ ] **Register and login, so that the data is private to them**
+- [ ] **Introduce new transactions associated with a category**
+- [ ] **See the money spent on each category**
 
 
 
