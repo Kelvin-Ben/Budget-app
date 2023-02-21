@@ -1,6 +1,6 @@
 class CategoriesController < ApplicationController
-  before ;set_category, only: %i[edit update destroy]
-  
+  before :set_category, only: %i[edit update destroy]
+
   def index
     @categories = current_user.categories
   end
@@ -14,7 +14,7 @@ class CategoriesController < ApplicationController
     @category.author = current_user
 
     if @category.save
-      flash[:notice] = "Category was created successfully"
+      flash[:notice] = 'Category was created successfully'
       redirect_to categories_path
     else
       render :new, status: :uprocessable_entity
@@ -23,7 +23,7 @@ class CategoriesController < ApplicationController
 
   def update
     if @category.update(category_params)
-      flash[:notice] = "Category was updated successfully"
+      flash[:notice] = 'Category was updated successfully'
       redirect_to categories_path
     else
       render :edit, status: :uprocessable_entity
@@ -32,7 +32,7 @@ class CategoriesController < ApplicationController
 
   def destroy
     @category.destroy
-    flash[:notice] = "Categories was deleted successfully"
+    flash[:notice] = 'Categories was deleted successfully'
     redirect_to categories_path
   end
 
