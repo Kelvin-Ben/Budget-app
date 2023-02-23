@@ -1,4 +1,9 @@
 <h1>Splash</h1>
-<%= link_to "Login", user_session_path %>
-<%= link_to "Signup", new_user_registration_path %>
-<%= button_to "Log out", destroy_user_session_path, method: :delete, data: { turbo: false } %>
+<div class="flex flex-col items-center justify-center h-screen bg-gray-100">
+  <h1 class="text-3xl font-bold mb-10">Allocate</h1>
+  <img src="https://cdn.pixabay.com/photo/2013/07/12/14/07/bag-147782_960_720.png" class="w-32 mb-8" alt="Logo Image">
+  <div class="flex mb-8">
+    <%= link_to "Log In", user_session_path, class:"bg-blue-600 px-4 py-2 rounded-full  text-white hover:hover:bg-blue-700" %>
+    <%= link_to "Sign Up", new_user_registration_path, class:"bg-white px-4 py-2 rounded-full text-black hover:bg-gray-200 mx-4" %>
+  </div>
+</div>

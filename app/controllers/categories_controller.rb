@@ -1,5 +1,5 @@
 class CategoriesController < ApplicationController
-  before :set_category, only: %i[edit update destroy]
+  before_action :set_category, only: %i[edit update destroy]
 
   def index
     @categories = current_user.categories

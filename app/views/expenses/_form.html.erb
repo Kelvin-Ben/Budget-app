@@ -1,0 +1,28 @@
+<%= form_with(model: expense, url: "#{action_name == 'edit' ? category_expense_path(@category, expense) : category_expenses_path(@category)}", class: "bg-white mb-4 px-8 pt-6 pb-8 rounded shadow-md") do |form| %>
+<%= render "shared/error_form_message", resource: expense %>
+  <div class="mb-4">
+    <%= form.label "Name", class: "block font-bold mb-2 text-gray-700 text-sm" %>
+    <%= form.text_field :name, 
+                         autocomplete: "name",
+                         placeholder: "#{@category.name} Name",
+                         class: "appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none shadow focus:shadow-outline" 
+                         %>
+
+  </div>
+  <div class="mb-4">
+    <%= form.label "Amount", class: "block font-bold mb-2 text-gray-700 text-sm" %>
+    <%= form.number_field :amount,
+                           placeholder: "Amount",
+                           class: "appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none shadow focus:shadow-outline" 
+                           %>
+  </div>
+
+  <div class="mb-4">
+    <%= form.submit "#{action_name == 'edit' ? 'Update' : 'Save'}",
+                      class: "button bg-blue-500 hover:bg-blue-700 font-bold text-white focus:outline-none py-2 px-4 rounded focus:shadow-outline w-full" 
+                      %>
+  </div>
+  <%= link_to "Back", category_expenses_path,
+        class: "inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" 
+  %>
+<% end %>
