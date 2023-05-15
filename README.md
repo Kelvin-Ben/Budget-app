@@ -1,3 +1,6 @@
+![IMG_20210430_165321 (3)](https://github.com/Kelvin-Ben/Budget-app/assets/85459676/4c250cd0-e5b4-4da9-8c4d-13ed54abd2d0)
+
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -24,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Budget App] <a name="about-project"></a>
+# 📖 Budget App <a name="about-project"></a>
 
 
 **Budget App** is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you have spent and on what
@@ -61,15 +64,9 @@
 
 > Here the main goal of building this web application is to have a deeper understanding of how Ruby on Rails can make development of applications easy
 
-- **[Create associations between different models involved]**
-- **[Use migration files]**
-- **[Build a schema from models]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- **Create associations between different models involved**
+- **Use migration files**
+- **Build a schema from models**
 
 <!-- GETTING STARTED -->
 
@@ -120,9 +117,6 @@ Example command:
 ```sh
   bin/rails test test/models/article_test.rb
 ```
--
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -134,21 +128,15 @@ Example command:
 - Twitter: [@kevoyout144](https://twitter.com/kevoyout144)
 - LinkedIn: [Kelvin-Ben](https://www.linkedin.com/in/kelvin-ben-323043173/)
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 > I will create a Ruby on Rails application that allows the user to: 
 
-- [ ] **Register and login, so that the data is private to them**
-- [ ] **Introduce new transactions associated with a category**
-- [ ] **See the money spent on each category**
+- **Register and login, so that the data is private to them**
+- **Introduce new transactions associated with a category**
+- **See the money spent on each category**
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -158,7 +146,6 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
@@ -166,38 +153,30 @@ Feel free to check the [issues page](../../issues/).
 
 Anyone who finds this project interesting is welcome to give it a star.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I would like to thank Microverse for the opportunity
+- I would like to thank Microverse for the opportunity and greate learning resources
 - Also, original design idea by [Gregoire Vella on Behance](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 
-- **[How do i run the project in my local machine?]**
+- **How do i run the project in my local machine?**
 
-  - [You need to clone the project in your local environment through the terminal]
+  - You need to clone the project in your local environment through the terminal
 
-- **[What database are you using for this project?]**
+- **What database are you using for this project?**
 
   - [POSTGRESQL]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
